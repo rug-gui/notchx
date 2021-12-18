@@ -6,10 +6,10 @@
 <table>
 <tr>
 <td>Windows</td>
-<td>Link</td>
+<td>Linux</td>
 </tr>
 <tr>
-<td>Linux</td>
+<td>Link</td>
 <td>Coming Soon</td>
 </tr>
 </table>
