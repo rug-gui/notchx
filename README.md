@@ -17,3 +17,8 @@
 <td>Coming Soon</td>
 </tr>
 </table>
+
+## How to run
+Go to: ```C:/Program Files/NotchX```
+
+and run ```notchx.exe```
