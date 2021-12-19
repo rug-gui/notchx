@@ -22,3 +22,6 @@
 Go to: ```C:/Program Files/NotchX```
 
 and run ```notchx.exe```
+
+## How to stop
+Click on notch and press Esc
