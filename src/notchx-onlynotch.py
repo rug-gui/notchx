@@ -46,7 +46,7 @@ def load_images():
     "unhide_24.png")
     print('loaded')'''
 root=Tk()
-root.config(bg='SystemButtonFace')
+root.config(bg='SystemButtonFace',cursor='none')
 root.overrideredirect(True)
 ws = root.winfo_screenwidth() # width of the screen
 hs = root.winfo_screenheight() # height of the screen
@@ -71,6 +71,7 @@ background = Image.new("RGB", img.size, (255, 255, 255))
 background.paste(img, mask=img.split()[3]) # 3 is the alpha channel
 
 background.save('mail.png', 'PNG', quality=80)'''
+'''
 img = Image.open("AppData/IconData/Fluent/icons8_search_more_48px.png").resize((22,22))
 icon=ImageTk.PhotoImage(img)
 weather_icon=ImageTk.PhotoImage(Image.open('AppData/IconData/Fluent/icons8_game_controller_48px.png').resize((22,22)))
@@ -81,12 +82,14 @@ mail_icon=ImageTk.PhotoImage(Image.open('AppData/IconData/Fluent/icons8_open_env
 dashboard_icon=ImageTk.PhotoImage(Image.open('AppData/IconData/Fluent/icons8_dashboard_layout_48px.png').resize((22,22)))
 #notes_icon=ImageTk.PhotoImage(Image.open('AppData/IconData/Fluent/icons8_contact_us_48px_1.png'))
 si = subprocess.STARTUPINFO()
-si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+si.dwFlags |= subprocess.STARTF_USESHOWWINDOW'''
 main_frame=customtkinter.CTkFrame(bg_color='SystemButtonFace',fg_color='SystemButtonFace',height=25,width=175)
 main_frame.pack(expand=True,fill='both')
+main_frame.configure(cursor='none')
 content_frame=customtkinter.CTkFrame(main_frame,bg_color='SystemButtonFace',fg_color='#000000',height=25,width=175)
-print(content_frame.configure(cursor='none'))
+content_frame.configure(cursor='none')
 content_frame.pack(side=TOP,expand=True,fill='both')
+'''
 left_frame=Frame(content_frame,height=10)
 left_frame.pack(side=LEFT,padx=8)
 b1=Label(left_frame,image=icon,background='#000000',cursor='hand2',height=20)
@@ -124,7 +127,7 @@ b4=Label(right_frame,image=telegram_icon,background='#000000',cursor='hand2',hei
 def open_contacts(event=None):
     subprocess.call('explorer shell:appsfolder\Microsoft.YourPhone_8wekyb3d8bbwe!App',startupinfo=si)
 b4.bind('<Button-1>',open_contacts)
-b4.pack()
+b4.pack()'''
 root.hide=False
 '''def hide_wnd(event):
     root.wm_attributes('-alpha',0.5)
@@ -186,7 +189,7 @@ tp.wm_attributes('-alpha',0.5)
 
 tp=customtkinter.CTkFrame(tp,bg_color='white',fg_color='#000000',height=50,width=350)
 tp.pack()'''
-
+'''
 tp=Toplevel()
 tp.config(bg='white')
 
@@ -197,9 +200,8 @@ tp.wm_attributes('-topmost',True)
 tp.wm_attributes('-alpha',0.5)
 root.wm_attributes('-topmost',True)
 tp.bind("<FocusIn>", inactive)
-
 tp.bind("<FocusOut>", inactive)
 trp=customtkinter.CTkFrame(tp,bg_color='white',fg_color='black',height=hs,width=ws)
 trp.pack()
-
+'''
 root.mainloop()
