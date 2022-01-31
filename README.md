@@ -1,6 +1,6 @@
 # Notch X
 
-![image](https://user-images.githubusercontent.com/64083352/146631829-9ab55233-83ef-4c56-9a20-8275aee4fde9.png)
+![image](https://i.ibb.co/6N36DtG/On-Paste-20220131-214200.png)
 
 ## Downloads
 <table>
