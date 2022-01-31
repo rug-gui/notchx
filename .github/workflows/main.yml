@@ -38,7 +38,7 @@ jobs:
       - name: PyInstaller Linux
         # You may pin to the exact commit or the version.
         # uses: JackMcKew/pyinstaller-action-linux@38639c352a36917eea765f9283bfd1092c28af7b
-        uses: JackMcKew/pyinstaller-action-linux@0.1.4
+        uses: JackMcKew/pyinstaller-action-linux@tkinter
         with:
           # Specify whether to install Tkinter or not
           tkinter: true
