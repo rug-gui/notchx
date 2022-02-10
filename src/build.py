@@ -37,13 +37,13 @@ url = "https://i.ibb.co/vkTxXJ3/0bbeea2ad486f676890d5e7cac167c2d.png"
 image = ImgFromUrl(url)
 image_widget = tkinter.Label(installer, image=image)
 image_widget.pack()
-image_1 = ImgFromUrl("https://cdn.statically.io/img/i.ibb.co/rb5wtbC/btn.png?h=80")
+image_1 = ImgFromUrl("https://ik.imagekit.io/jointest/notchx/tr:h-50/rb5wtbC/btn.png")
 image_widget_1 = tkinter.Button(installer,height=50,command=lambda:installing(),relief="flat",overrelief="solid", image=image_1, cursor='hand2')
 image_widget_1.pack()
 nurl="https://i.ibb.co/HnCQD3G/cc7b835a0e9a9ec03971f6c0613953a2.png"
 image_2 = ImgFromUrl(nurl)
 image_widget_2 = tkinter.Label(image=image_2)
-purl="https://cdn.statically.io/img/i.ibb.co/s6BDR6s/index.png?h=80"
+purl="https://ik.imagekit.io/jointest/notchx/tr:h-80/s6BDR6s/index.png"
 image_3 = ImgFromUrl(purl)
 
 tkinter.Label(text='By downloading NotchX you agree to the Terms and Conditions').pack()
