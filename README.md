@@ -1,6 +1,6 @@
 # Notch X
 
-![image](https://i.ibb.co/6N36DtG/On-Paste-20220131-214200.png)
+![image](http://i.ibb.co/6N36DtG/On-Paste-20220131-214200.png)
 
 ## Downloads
 <table>
