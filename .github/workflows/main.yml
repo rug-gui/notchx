@@ -25,4 +25,9 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: notchx
-        path: src/dist/linux, src/dist/windows 
+        path: src/dist/windows/notchx.exe
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: notchx
+        path: src/dist/linux
