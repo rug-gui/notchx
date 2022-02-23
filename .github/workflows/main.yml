@@ -18,6 +18,9 @@ jobs:
       uses: JackMcKew/pyinstaller-action-linux@main
       with:
         path: src
+        
+    - name: PyInstaller Windows
+      uses: JackMcKew/pyinstaller-action-windows@v0.1.2
 
     - uses: actions/upload-artifact@v2
       with:
