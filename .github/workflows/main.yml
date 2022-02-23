@@ -18,10 +18,6 @@ jobs:
       uses: JackMcKew/pyinstaller-action-linux@main
       with:
         path: src
-        
-    - name: Python Build for Windows(PyInstaller)
-      uses: vednig/pyinstaller-action-windows@v0.1.5
-
 
     - uses: actions/upload-artifact@v2
       with:
