@@ -14,7 +14,7 @@
   [notchx_setup.exe](https://github.com/rug-gui/notchx/releases/download/v0.0.1/notchx_setup.exe)
   
   </td>
-<td>Coming Soon</td>
+<td>WIP</td>
 </tr>
 </table>
 
