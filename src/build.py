@@ -133,7 +133,7 @@ def done():
         #os.startfile(r"C:/Program Files/NotchX/notchx.exe")
         #os.system(r"notchx.exe")
         subprocess.Popen(r"C:/Program Files/NotchX/notchx.exe")
-        exit()
+        # exit()
     tkinter.Button(text='Open Now',command=run_notchx,relief='flat',width=189, image=image_3,cursor="hand2").pack()
     ttk.Button(text="Later",command=installer.destroy).pack()
 

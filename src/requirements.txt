@@ -1,1 +1,4 @@
 customtkinter
+pillow
+click
+requests
