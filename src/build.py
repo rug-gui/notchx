@@ -107,7 +107,7 @@ def download():
 
 def unzip():
     global p
-    print('Unzipping via tar')
+    # print('Unzipping via tar')
     os.system('tar -xf setup.zip')
 
     '''p=100
