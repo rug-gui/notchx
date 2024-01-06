@@ -137,8 +137,8 @@ def inactive(event):
     else:
         '''content_frame.corner_radius=0
         content_frame.draw()'''
-        #root.wm_attributes('-alpha',0.7)
-        #content_frame.canvas.configure(cursor='fleur')
+        # root.wm_attributes('-alpha',0.7)
+        content_frame.canvas.configure(cursor='fleur')
         '''b1.config(image=icon_24)
         b2.config(image=weather_icon_24)
         global hide
