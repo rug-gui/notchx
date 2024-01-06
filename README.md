@@ -11,7 +11,7 @@
 <tr>
 <td>
   
-  [notchx_setup.exe](https://github.com/rug-gui/notchx/releases/download/v0.0.1/notchx_setup.exe)
+  [notchx_setup.exe](https://github.com/rug-gui/notchx/releases/latest/download/notchx_setup.exe)
   
   </td>
 <td>WIP</td>
