@@ -128,7 +128,7 @@ def done():
     tkinter.Label(text='Do you want to open Notch X?').pack()
     #installer.geometry('180x120')
     def run_notchx():
-        print('Opening')
+        # print('Opening')
         #os.chdir(r'C:/Program Files/NotchX')
         #os.startfile(r"C:/Program Files/NotchX/notchx.exe")
         #os.system(r"notchx.exe")
